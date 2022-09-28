@@ -1,0 +1,29 @@
+#assignment-6-body {
+  height: 100vh;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#assignment-6-body div {
+  background-color: teal;
+  border: 2px;
+  border-color: white;
+  height: 50px;
+}
+#assignment-6-body .dashed {
+  border-style: dashed;
+  width: 50px;
+}
+#assignment-6-body .center {
+  border-style: solid;
+  width: 150px;
+}
+#assignment-6-body #top {
+  margin-bottom: 10px;
+}
+#assignment-6-body #bottom {
+  margin-top: 10px;
+}

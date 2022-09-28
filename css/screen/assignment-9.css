@@ -1,0 +1,145 @@
+#play-list {
+  border: 5px solid rgb(26, 179, 158);
+  display: flex;
+  flex-direction: column;
+}
+
+#play-list .status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+#play-list .status-bar__title {
+  font-size: 28px;
+  font-weight: 800;
+}
+#play-list .status-bar span {
+  display: block;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+#play-list section {
+  margin: 10px 25px;
+}
+
+#play-list .now-playing {
+  display: flex;
+  flex-direction: column;
+}
+
+#play-list .now-playing__column {
+  display: flex;
+}
+
+#play-list .now-playing__description {
+  display: flex;
+  flex-direction: column;
+}
+
+#play-list .now-playing__title {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+#play-list .now-playing__sub-title {
+  font-size: 16px;
+}
+
+#play-list .now-playing__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+#play-list .now-playing__btn span {
+  border: 2px solid black;
+  border-bottom: 4px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#play-list .now-playing__btn-rectangle {
+  border-radius: 20px;
+  width: 120px;
+}
+
+#play-list .now-playing__btn-circle {
+  border-radius: 50%;
+}
+
+#randomLove > .nowPlaying__albumCover {
+  background-color: rgb(255, 180, 19);
+}
+#btns {
+  width: 45vh;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  margin: 20px;
+  padding: 5px 0px 0px 0px;
+  background-color: white;
+  border: solid black;
+  border-width: 3px 3px 6px 3px;
+  font: 20px solid black;
+  font-weight: 900;
+  text-align: center;
+}
+.btn__rectangle {
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+}
+.btn__circle {
+  width: 70px;
+  height: 40px;
+  border-radius: 50px;
+}
+#playLists {
+  width: 45vh;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.playList__song {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.playList__descriptions {
+  margin: 3px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.playList__title {
+  font: 20px solid black;
+  font-weight: 900;
+}
+.playList__artist {
+  font: 15px solid black;
+  font-weight: 500;
+}
+.playList__albumCover {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+#matargasti > .playList__albumCover {
+  background-color: rgb(247, 80, 38);
+}
+#attitude > .playList__albumCover {
+  background-color: rgb(255, 126, 180);
+}
+#tryEverything > .playList__albumCover {
+  background-color: rgb(21, 63, 225);
+}
+#sunflower > .playList__albumCover {
+  background-color: rgb(2, 191, 163);
+}

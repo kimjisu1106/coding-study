@@ -1,0 +1,78 @@
+#assignment-8 {
+  background-color: rgb(107, 188, 191);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes rotationDots {
+  0% {
+    transfrom: rotateZ(0);
+  }
+  30% {
+    transform: rotateZ(180deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  80% {
+    transform: rotateZ(360deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes scaleRectangles {
+  20% {
+    transform: scaleY(2);
+  }
+  40% {
+    transform: scaleY(1);
+  }
+}
+#assignment-8 #dots {
+  margin-bottom: 30px;
+  animation: rotationDots 2s ease-in-out infinite;
+}
+#assignment-8 #scale {
+  margin-top: 30px;
+}
+#assignment-8 #r1 {
+  animation: scaleRectangles 1s ease-in-out infinite;
+  animation-delay: 0;
+}
+#assignment-8 #r2 {
+  animation: scaleRectangles 1s ease-in-out infinite;
+  animation-delay: 0.07s;
+}
+#assignment-8 #r3 {
+  animation: scaleRectangles 1s ease-in-out infinite;
+  animation-delay: 0.14s;
+}
+#assignment-8 #r4 {
+  animation: scaleRectangles 1s ease-in-out infinite;
+  animation-delay: 0.21s;
+}
+#assignment-8 #r5 {
+  animation: scaleRectangles 1s ease-in-out infinite;
+  animation-delay: 0.28s;
+}
+#assignment-8 .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#assignment-8 .dot {
+  margin: 15px;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+#assignment-8 .rectangle {
+  margin: 10px 5px;
+  width: 10px;
+  height: 40px;
+  background-color: white;
+}
