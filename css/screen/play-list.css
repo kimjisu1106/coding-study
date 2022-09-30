@@ -1,3 +1,9 @@
+#play-list__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #play-list {
   width: 300px;
   height: 600px;
@@ -79,7 +85,6 @@
   align-items: center;
   border: 2px solid black;
   border-bottom: 4px solid black;
-  padding-bottom: 5px;
   box-sizing: border-box;
   font-size: 20px;
   font-weight: 700;
@@ -99,6 +104,7 @@
 
 #play-list .now-playing__btn-circle:last-child {
   font-size: 25px;
+  padding-bottom: 5px;
 }
 
 #play-list .music-list__ul {
@@ -108,7 +114,7 @@
 
 #play-list .music-list__list {
   display: flex;
-  margin-bottom: 30px;
+  margin: 15px 0px;
 }
 
 #play-list .music-list__list img {

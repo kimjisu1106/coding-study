@@ -2,6 +2,16 @@
   background-color: aquamarine;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.index__header {
+  width: 400px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -12,7 +22,9 @@
 }
 
 .index__sub-title {
-  text-align: right;
+  position: absolute;
+  right: 0px;
+  bottom: -10px;
 }
 
 .index__main {
@@ -31,22 +43,28 @@
   justify-content: center;
   align-items: center;
   margin: 10px;
-  width: 90%;
+  width: 400px;
   height: 70px;
+  color: var(--text-gray);
+  background-color: var(--border-gray);
 }
 
 .study-list__list a {
-  width: 100%;
+  width: 400px;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: whitesmoke;
 }
 
 .study-list__date {
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
-  width: 100%;
+  width: 400px;
   text-align: right;
+}
+
+.study__done {
+  background-color: whitesmoke;
+  color: black;
 }

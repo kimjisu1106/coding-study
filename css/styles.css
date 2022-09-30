@@ -3,10 +3,10 @@
 
 /* screen */
 @import "screen/index.css";
-@import "screen/assignment-6.css";
-@import "screen/assignment-7.css";
-@import "screen/assignment-8.css";
-@import "screen/assignment-9.css";
+@import "screen/my-first-css.css";
+@import "screen/the-best-color.css";
+@import "screen/my-first-animation-by-css.css";
+@import "screen/play-list.css";
 
 body {
   width: 100vw;
