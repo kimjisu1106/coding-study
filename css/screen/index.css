@@ -44,15 +44,15 @@
 .index__section {
   margin-top: 10px;
   width: 100%;
-  padding: 0px 20px;
-  box-sizing: border-box;
   position: relative;
 }
 
 .index__section-header {
+  width: 100%;
   position: sticky;
   top: 0;
   background-color: aquamarine;
+  padding: 0px 20px 10px;
   padding-bottom: 10px;
 }
 
