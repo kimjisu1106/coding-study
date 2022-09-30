@@ -2,8 +2,8 @@
   height: 100vh;
   background-color: wheat;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
