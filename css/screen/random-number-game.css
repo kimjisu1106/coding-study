@@ -1,0 +1,53 @@
+#random-number-game {
+  width: 100vw;
+  height: 100vh;
+  padding: 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#random-number-game h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+#random-number-game .number-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+#random-number-game .korean {
+  margin-bottom: 25px;
+}
+
+#random-number-game .range-form {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+#random-number-game .result {
+  display: flex;
+  flex-direction: column;
+}
+
+#random-number-game .result span {
+  font-size: 1em;
+  margin-bottom: 25px;
+}
+
+#random-number-game .result h3 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#random-number-game button {
+  height: 40px;
+  font-size: 1.5em;
+}
+
+#random-number-game .result {
+  margin-top: 25px;
+}

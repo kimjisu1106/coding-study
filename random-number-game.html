@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" class="css" />
+  </head>
+
+  <body id="random-number-game">
+    <h1>Random Number Game</h1>
+    <h1>| 랜덤 숫자 게임</h1>
+    <form class="number-form">
+      <div id="range-form" class="range-form">
+        <label for="range-input">Generate a number between 0 and </label>
+        <input name="range-input" type="number" min="0" required />
+      </div>
+      <div class="korean">
+        <span>| 최대 숫자를 적어주세요(음수, 소수 X)</span>
+      </div>
+      <div id="guess-form" class="guess-form">
+        <label for="guess-number">Guess the number:</label>
+        <input name="guess-number" type="number" required />
+      </div>
+      <div class="korean">
+        <span>| 랜덤 숫자를 추측해서 적어주세요</span>
+      </div>
+      <button id="play-btn">Play !</button>
+    </form>
+    <section id="result" class="result">
+      <span></span>
+      <h3></h3>
+    </section>
+    <script src="js/random-number-game.js"></script>
+  </body>
+</html>
