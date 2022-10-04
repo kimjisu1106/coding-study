@@ -1,4 +1,6 @@
 #assignment-6-body {
+  width: 100vw;
+  height: 100vh;
   background-color: wheat;
   display: flex;
   flex-direction: column;

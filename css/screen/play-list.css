@@ -3,15 +3,14 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
 #play-list {
-  width: 300px;
-  height: 600px;
-  border: 5px solid rgb(26, 179, 158);
+  width: 100%;
   display: flex;
   flex-direction: column;
+  border: 5px solid rgb(26, 179, 158);
 }
 
 #play-list .status-bar {
@@ -94,7 +93,7 @@
 
 #play-list .now-playing__btn-rectangle {
   border-radius: 10px;
-  width: 120px;
+  width: 50%;
   height: 45px;
 }
 
@@ -114,9 +113,16 @@
   flex-direction: column;
 }
 
+@media screen and (width > 500px) {
+  #play-list .music-list__ul {
+    flex-flow: wrap;
+  }
+}
+
 #play-list .music-list__list {
   display: flex;
   margin: 15px 0px;
+  width: 50%;
 }
 
 #play-list .music-list__list img {
