@@ -1,4 +1,5 @@
 :root {
   --text-gray: rgba(0, 0, 0, 0.5);
   --border-gray: rgba(0, 0, 0, 0.3);
+  --horizontal-margin: 25px;
 }
