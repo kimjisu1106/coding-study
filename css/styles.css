@@ -8,6 +8,7 @@
 @import "screen/my-first-animation-by-css.css";
 @import "screen/play-list.css";
 @import "screen/random-number-game.css";
+@import "screen/random-colors.css";
 
 body {
   width: 100vw;
