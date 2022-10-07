@@ -1,7 +1,7 @@
 #assignment-6-body {
   width: 100vw;
   height: 100vh;
-  background-color: wheat;
+  background-color: tomato;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,22 +9,24 @@
 }
 
 #assignment-6-body div {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: wheat;
+  border: 2px solid black;
+}
+#assignment-6-body .background div {
+  height: 70px;
   background-color: teal;
-  border: 2px;
-  border-color: white;
-  height: 50px;
 }
-#assignment-6-body .dashed {
-  border-style: dashed;
-  width: 50px;
+#assignment-6-body .small {
+  width: 70px;
+  border: 2px solid white;
 }
-#assignment-6-body .center {
-  border-style: solid;
-  width: 150px;
-}
-#assignment-6-body #top {
-  margin-bottom: 10px;
-}
-#assignment-6-body #bottom {
-  margin-top: 10px;
+#assignment-6-body .large {
+  width: 260px;
+  border: 2px dashed white;
 }
