@@ -57,10 +57,10 @@
 .index__section__title {
   width: 100%;
   position: sticky;
-  top: 0;
+  top: -5px;
   background-color: aquamarine;
   text-align: left;
-  padding: 0px 0px 10px 10px;
+  padding: 10px 10px 10px 10px;
   box-sizing: border-box;
 }
 
@@ -80,6 +80,28 @@
   height: 70px;
   color: var(--text-gray);
   background-color: var(--border-gray);
+}
+
+@media screen and (max-width: 700px) {
+  .index__main {
+    width: 100%;
+  }
+  .study-list__date {
+    font-size: 1em;
+  }
+}
+@media screen and (700px<width<100px) {
+  .index__main {
+    width: 60%;
+  }
+  .study-list__date {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .index__main {
+    width: 40%;
+  }
 }
 
 .study-list__list a {
