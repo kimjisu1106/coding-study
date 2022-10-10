@@ -50,19 +50,19 @@ main {
 }
 
 .color:first-child > div {
-  background-color: tomato;
+  background-color: #16ce5f;
 }
 
 .color:nth-child(2) > div {
-  background-color: teal;
+  background-color: #fae100;
 }
 
 .color:nth-child(3) > div {
-  background-color: burlywood;
+  background-color: #2ac1bc;
 }
 
 .color:last-child > div {
-  background-color: thistle;
+  background-color: #ff7e36;
 }
 
 .color div:last-child {
