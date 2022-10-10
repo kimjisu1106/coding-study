@@ -1,4 +1,4 @@
-#assignment-7 {
+body {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -6,66 +6,66 @@
   align-items: center;
 }
 
-#assignment-7 h1 {
+h1 {
   font-size: 2.4em;
   font-weight: 700;
   margin: 15px 0px;
 }
 
-#assignment-7 main {
+main {
   display: flex;
   justify-content: space-between;
   align-items: space-between;
   flex-flow: wrap;
 }
 @media screen and (max-width: 700px) {
-  #assignment-7 main {
+  main {
     width: 90%;
     height: 80%;
   }
-  #assignment-7 .color {
+  .color {
     width: 45%;
     height: 45%;
   }
 }
 @media screen and (700px <width) {
-  #assignment-7 main {
+  main {
     width: 500px;
     height: 900px;
   }
-  #assignment-7 .color {
+  .color {
     width: 220px;
     height: 380px;
   }
 }
 
-#assignment-7 .color {
+.color {
   position: relative;
 }
 
-#assignment-7 .color__background {
+.color__background {
   width: 100%;
   height: 100%;
   border: 5px solid white;
 }
 
-#assignment-7 .color:first-child > div {
+.color:first-child > div {
   background-color: tomato;
 }
 
-#assignment-7 .color:nth-child(2) > div {
+.color:nth-child(2) > div {
   background-color: teal;
 }
 
-#assignment-7 .color:nth-child(3) > div {
+.color:nth-child(3) > div {
   background-color: burlywood;
 }
 
-#assignment-7 .color:last-child > div {
+.color:last-child > div {
   background-color: thistle;
 }
 
-#assignment-7 .color div:last-child {
+.color div:last-child {
   width: 100%;
   height: 30%;
   display: flex;
@@ -79,14 +79,14 @@
   border: 5px solid white;
 }
 
-#assignment-7 .color__title {
+.color__title {
   padding-left: 5px;
   box-sizing: border-box;
   font-size: 1.5em;
   font-weight: 600;
 }
 
-#assignment-7 .color__code {
+.color__code {
   padding-left: 5px;
   box-sizing: border-box;
   font-size: 1em;
